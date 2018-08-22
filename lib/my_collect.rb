@@ -1,23 +1,23 @@
-def my_collect(array)
-  new_arr = []
-  
-  i=0
-  while < array.length
-    new_arr << yield(array[i])
-    i += 1
-  end
-  new_arr
-end
-
 # def my_collect(array)
-#   new_arr = [] 
+#   new_arr = []
   
-#   i=0 
-#   while i < array.length 
-#   new_arr.push yield(array[i])
-#   i += 1 
-# end 
+#   i=0
+#   while < array.length
+#     new_arr << yield(array[i])
+#     i += 1
+#   end
 #   new_arr
-# end 
+# end
+
+def my_collect(array)
+  new_arr = [] 
+  
+  i=0 
+  while i < array.length 
+  new_arr.push yield(array[i])
+  i += 1 
+end 
+  new_arr
+end 
 
 
